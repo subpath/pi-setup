@@ -1,0 +1,15 @@
+[project]
+name = "pi-setup"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "pyinfra>=3.7",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4",
+    "ruff>=0.9",
+    "ty>=0.0.1a6",
+]
