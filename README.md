@@ -24,12 +24,6 @@ Turns a fresh Raspberry Pi OS install into a fully configured media server with 
 | Homer | 3000 | Dashboard |
 | FileBrowser | 8234 | File manager |
 
-## Requirements
-
-- macOS (for SD card prep; provisioning works from any OS)
-- [just](https://just.systems/) — task runner
-- [uv](https://docs.astral.sh/uv/) — Python package manager
-- `brew` — for installing `openssl` and `sshpass`
 
 ## Quick start
 
